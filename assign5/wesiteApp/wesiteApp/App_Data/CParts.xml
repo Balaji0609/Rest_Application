@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Parts>
+  <Parts title="Dell monitor" price="100" />
+  <Parts title="cpu i7" price="150" />
+  <Parts title="Dell keyboard" price="15" />
+  <Parts title="Samsung monitor" price="123" />
+  <Parts title="cpu i5" price="76" />
+  <Parts title="TCL monitor" price="100" />
+  <Parts title="LG monitor" price="76" />
+  <Parts title="Logitech keyboard" price="876" />
+  <Parts title="logitech mouse" price="400" />
+  <Parts title="Sandisk pendrive" price="10" />
+  <Parts title="monitor bpl" price="70" />
+  <Parts title="monitor uk" price="24" />
+</Parts>

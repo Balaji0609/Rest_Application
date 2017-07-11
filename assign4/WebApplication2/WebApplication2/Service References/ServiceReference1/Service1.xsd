@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Verification_Service">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="xmlpath" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="xsdpath" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Verification_ServiceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Verification_ServiceResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Transformation_Service">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="xmlpath" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="xslpath" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Transformation_ServiceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Transformation_ServiceResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
